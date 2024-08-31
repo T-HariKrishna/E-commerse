@@ -1,0 +1,241 @@
+@import url("https://fonts.cdnfonts.com/css/br-segma");
+
+body {
+  background-color: rgb(221, 205, 147);
+  margin: 0px;
+  font-family: sans-serif;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(169, 149, 50);
+  padding: 15px 5px;
+  flex-shrink: 1;
+  width: 100%;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.logo img {
+  width: 45px;
+  height: 39px;
+  margin: 10px 20px;
+}
+.search-box input {
+  margin: 20px;
+}
+.search-box input {
+  width: 700px;
+  border-radius: 19px;
+  padding: 7px;
+}
+.search-box button {
+  border: 0;
+  padding: 5px 15px;
+  cursor: pointer;
+  background: rgb(16, 15, 15);
+  color: rgb(228, 221, 221);
+  text-transform: capitalize;
+}
+.search-box button:hover {
+  background-color: rgb(177, 155, 199);
+  color: rgb(13, 13, 13);
+}
+.nav-links a {
+  text-decoration: none;
+  margin-left: 15px;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+.nav-icon img {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.hero-section {
+  padding-top: 111px;
+}
+.hero-section img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.brands-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  z-index: 10;
+  margin: 5px;
+  background: rgb(205, 169, 70);
+}
+.card img {
+  width: 250px;
+  height: 250px;
+  margin-left: 4px;
+  margin: 10px;
+}
+
+h2 {
+  margin: 20px;
+  color: rgb(15, 13, 13);
+  text-transform: capitalize;
+}
+.card p {
+  margin: 5px;
+  padding: 10px;
+}
+.card button {
+  padding: 4px;
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: 2px black;
+}
+.card button:hover {
+  color: rgb(20, 22, 22);
+  background: rgb(219, 192, 142);
+  border: 0;
+}
+.card:hover {
+  transform: translateY(0px);
+  border: 3px solid black;
+}
+h4 {
+  margin: 5px;
+  padding: 10px;
+  text-transform: capitalize;
+  max-width: 25ch;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.info {
+  color: rgb(21, 11, 11);
+  text-transform: capitalize;
+  border: 3px seagreen;
+}
+.info h4 {
+  text-align: end;
+}
+.info ul {
+  list-style: square;
+}
+.info h4 {
+  text-decoration: solid underline;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.copyright {
+  text-align: center;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+.companyname {
+  text-transform: uppercase;
+  margin: 10px;
+}
+.nike_herosection {
+  display: flex;
+}
+.nike_herosection img {
+  height: 500px;
+  width: 50%;
+  margin-left: 5px;
+}
+.click {
+  position: absolute;
+  bottom: 25%;
+  padding: 1px 5px;
+  left: 5%;
+  font-weight: bold;
+  color: rgb(224, 205, 204);
+  font-size: xx-large;
+  background-color: rgb(18, 17, 19);
+}
+.product_info_heading {
+  text-align: center;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+.products_section {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300;
+}
+.shoe_item img {
+  height: 280px;
+  width: 280px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  object-fit: cover;
+}
+.shoe_item:hover {
+  transform: translateY(5px);
+  border: 3px solid black;
+  transition-duration: 0.1s;
+}
+.shoe_item {
+  margin: 10px;
+}
+.product_info_heading {
+  color: black;
+}
+.shoe_info {
+  color: aliceblue;
+  max-width: 25ch;
+}
+#shoe_1:hover {
+  content: url(/project/images/shoes/nikeshoeside.jpg);
+  cursor: zoom-in;
+}
+#shoe_2:hover {
+  content: url(/project/images/shoes/NikePegasus_hover.jpg);
+}
+
+#shoe_3:hover {
+  content: url(/project/images/shoes/NikeAirMax_hover.jpg);
+}
+.shop_now {
+  padding: 7px;
+  width: 125%;
+  text-transform: capitalize;
+  font-weight: bold;
+  border: 1px rgb(240, 201, 6);
+}
+.shop_now:hover {
+  background-color: rgb(221, 195, 27);
+  cursor: pointer;
+}
+.footer_container {
+  border: 3px silver;
+}
+
+#pos:hover {
+  content: url(/project/images/elctronicstore/pos_hover.jpg);
+  cursor: zoom-in;
+}
+#iphone:hover {
+  content: url(/project/images/elctronicstore/iphone_hover.jpg);
+  cursor: zoom-in;
+}
+#laptop:hover {
+  content: url(/project/images/elctronicstore/lenovo_hover.jpg);
+  cursor: zoom-in;
+}
+#tv:hover {
+  content: url(/project/images/elctronicstore/t.v_hover.jpg);
+}
+.elecbutton {
+  padding: 3px 0%;
+}
+.copyright {
+  color: black;
+}
